@@ -19,7 +19,7 @@
     "typescript"
   ],
   "author": "LoisoTheCrow",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.17.9",
     "@babel/preset-env": "^7.16.11",
