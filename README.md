@@ -1,4 +1,4 @@
-# DESCRIPTION
+# Description
 
 This is an open-source independent web UI for interacting with OpenAI API in a chat-like manner.
 The main purpose of the project is to replicate/extend ChatGPT functionality for testing and playground purposes,
@@ -13,7 +13,7 @@ account or other consequences where applicable.
 
 Employing user discretion and common sense is therefore advised.
 
-# INSTALLATION
+# Installation
 
 ## If yarn/npm already present
 
@@ -26,12 +26,28 @@ or
 npm install
 ```
 
-2. Create a local ``` .env ``` file.
+2. Create a local ```.env``` file.
 
-3. Add ```env API_KEY="{your_api_key}" ``` to the local ``` .env ``` file.
+3. Add ```API_KEY="{your_api_key}"``` to the local ```.env``` file.
 
-# USAGE
+# Usage
 
-- For hot-reload development or an easy setup, run ```bash npm run start ``` or ```bash yarn start ``` depending on your package manager.
+- For hot-reload development or an easy setup:
+```bash
+npm run start
+```
+or
+```bash
+yarn start
+```
+depending on your package manager.
 
-- To build minimized production code and artefacts, run ```bash npm run build ``` or ```bash yarn build ``` depending on your package manager.
+- To build minimized production code and artefacts, run
+```bash
+npm run build
+```
+or
+```bash
+yarn build
+```
+depending on your package manager.
