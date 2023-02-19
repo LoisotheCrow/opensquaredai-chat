@@ -1,5 +1,3 @@
-![image](https://user-images.githubusercontent.com/31534410/219909185-c257ffb9-6b7a-48be-9ed4-d505072c7753.png)
-
 # Description
 
 This is an open-source independent web UI for interacting with OpenAI API in a chat-like manner.
@@ -14,6 +12,8 @@ creation of an OpenAI account, and while not explictly censored/moderated, can s
 account or other consequences where applicable.
 
 Employing user discretion and common sense is therefore advised.
+
+![image](https://user-images.githubusercontent.com/31534410/219909185-c257ffb9-6b7a-48be-9ed4-d505072c7753.png)
 
 # Installation
 
