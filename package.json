@@ -2,8 +2,11 @@
   "name": "opensquaredai-chat",
   "version": "0.1.0",
   "description": "An open-source web interface for interaction with OpenAI API in a chat-like manner.",
+  "homepage": "https://loisothecrow.github.io/opensquaredai-chat",
   "main": "main.tsx",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --open --mode development --hot",
     "build": "webpack --mode production"
@@ -28,6 +31,7 @@
     "@types/react-dom": "^17.0.2",
     "babel-loader": "^8.2.5",
     "dotenv-webpack": "^8.0.1",
+    "gh-pages": "^5.0.0",
     "html-webpack-plugin": "^5.5.0",
     "tailwindcss": "^3.2.7",
     "ts-loader": "^9.2.8",
