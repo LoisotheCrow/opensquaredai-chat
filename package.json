@@ -6,7 +6,7 @@
   "main": "main.tsx",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --open --mode development --hot",
     "build": "webpack --mode production"
