@@ -6,7 +6,7 @@
   "main": "main.tsx",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d dist -r https://github.com/LoisotheCrow/opensquaredai-chat.git",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --open --mode development --hot",
     "build": "webpack --mode production"
