@@ -14,15 +14,15 @@ const App: React.FC = () => {
   const [loading, setLoading] = useState<boolean>(false);
 
   return (
-    <ChatProvider chat={chat} prompt={prompt} setPrompt={setPrompt} setChat={setChat} loading={loading} setLoading={setLoading}>
-      <SettingsProvider setSettings={setSettings} settings={settings}>
+    <SettingsProvider setSettings={setSettings} settings={settings}>
+      <ChatProvider chat={chat} prompt={prompt} setPrompt={setPrompt} setChat={setChat} loading={loading} setLoading={setLoading}>
         <Header />
         <main tabIndex={tabIndeces.MAIN} className="w-full h-full">
           <ChatWindow />
         </main>
         <Footer />
-      </SettingsProvider>
-    </ChatProvider>
+      </ChatProvider>
+    </SettingsProvider>
   );
 }
 

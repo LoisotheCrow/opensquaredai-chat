@@ -42,6 +42,7 @@ yarn start
 ```
 depending on your package manager.
 
+
 - To build minimized production code and artefacts, run
 ```bash
 npm run build

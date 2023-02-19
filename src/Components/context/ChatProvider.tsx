@@ -45,7 +45,7 @@ const ChatProvider = ({
 
   useEffect(() => {
     const configuration = new Configuration({
-      apiKey: "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",
+      apiKey: settings.apiKey,
     });
     const openai = new OpenAIApi(configuration);
   

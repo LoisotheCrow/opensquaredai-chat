@@ -7,12 +7,9 @@ const ChatWindow = () => {
   const { chat, setPrompt, prompt, submitPrompt, loading } = useChat();
   const [settings] = useSettings();
 
-  console.log('loading', loading);
-  console.log('disabled', !settings.apiKey || loading)
-
   return (
     <section className="w-full h-full flex flex-col p-4 gap-4 bg-gray-600">
-      <div className="w-full h-[85%] flex flex-col p-2 gap-2 rounded bg-gray-800 overflow-scroll">
+      <div className="w-full h-[80%] flex flex-col p-2 gap-2 rounded bg-gray-800 overflow-scroll">
         {chat.map((message, index) => <ChatMessage key={index} {...message} />)}
       </div>
       <div className="w-full h-[15%] flex flex-row gap-1">
